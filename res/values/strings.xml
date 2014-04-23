@@ -1,0 +1,10 @@
+<resources>
+
+	<string name="app_name">PropertyAnimation</string>
+	<string name="wheel">Steering Wheel</string>
+	<string name="ground">The Ground</string>
+	<string name="window">Window Frame</string>
+	<string name="sun">The Sun</string>
+	<string name="cloud">A Cloud</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/car_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#66ccff"
+	tools:context=".PropertyAnimatedActivity" >
+
+	<ImageView
+		android:id="@+id/sun"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/sun"
+		android:paddingLeft="100dp"
+		android:paddingTop="45dp"
+		android:src="@drawable/sun" />
+
+	<ImageView
+		android:id="@+id/cloud1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/cloud"
+		android:paddingLeft="170dp"
+		android:paddingTop="70dp"
+		android:src="@drawable/cloud" />
+
+	<ImageView
+		android:id="@+id/cloud2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:contentDescription="@string/cloud"
+		android:paddingLeft="200dp"
+		android:paddingTop="90dp"
+		android:src="@drawable/cloud" />
+
+	<ImageView
+		android:id="@+id/ground"
+		android:layout_width="fill_parent"
+		android:layout_height="200dp"
+		android:layout_alignParentBottom="true"
+		android:contentDescription="@string/ground"
+		android:padding="40dp"
+		android:src="@drawable/ground" />
+
+	<ImageView
+		android:id="@+id/window"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:contentDescription="@string/window"
+		android:src="@drawable/window" />
+
+	<ImageView
+		android:id="@+id/wheel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:contentDescription="@string/wheel"
+		android:padding="3dp"
+		android:src="@drawable/steering_wheel" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+	android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	android:ordering="sequentially" >
+
+	<objectAnimator
+		android:duration="3000"
+		android:propertyName="rotation"
+		android:repeatCount="infinite"
+		android:repeatMode="reverse"
+		android:valueTo="180"
+		android:valueType="floatType" />
+
+</set>
